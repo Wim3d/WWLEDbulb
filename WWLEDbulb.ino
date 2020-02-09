@@ -33,7 +33,7 @@ const char* scene2_topic_a = "/scene2";
 
 char status_topic[20], DIM_topic[20], scene1_topic[20], scene2_topic[20];
 
-#define WHITEPIN 4
+#define WHITEPIN 4 // GPIO4 connected to PWM pin of the LEDbulb. 
 
 #define WIFI_CONNECT_TIMEOUT_S 15
 
